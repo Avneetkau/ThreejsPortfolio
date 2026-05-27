@@ -10,7 +10,7 @@ export const myProjects = [
     "Implemented Stripe payment gateway for seamless and secure online transactions.",
     "Built features like product search, filtering, cart management, and order tracking for enhanced usability.",
     ],
-    href: "https://grocery-shopping-website-sigma.vercel.app/",
+    href: "https://grocery-shopping-project.vercel.app/",
     logo: "",
     image: "/assets/projects/grocerywebsite.png",
     tags: [
@@ -47,7 +47,7 @@ export const myProjects = [
     "Designed an intuitive and responsive frontend using Tailwind CSS for improved readability and UX.",
     "Added features like likes, comments, and category filtering to enhance user engagement.",
     ],
-    href: "https://mern-blog-pq4q.vercel.app/",
+    href: "https://mern-blog-frontend-ashy-seven.vercel.app/",
     logo: "",
     image: "/assets/projects/mernblog.png",
     tags: [
@@ -110,8 +110,46 @@ export const myProjects = [
       },
     ],
   },
+   {
+    id: 3,
+    title: "Job Portal Application",
+    description:
+      "A full-stack job portal platform connecting recruiters and job seekers with seamless job posting and application management.",
+    subDescription: [
+       "Developed a MERN stack-based job portal with separate functionalities for recruiters and candidates.",
+    "Integrated Clerk Authentication for secure user sign-up, login, and role-based access management.",
+    "Implemented Cloudinary for efficient resume and company logo uploads with cloud storage support.",
+    "Built dynamic job posting, application tracking, and candidate management features.",
+    "Designed a responsive and modern UI using Tailwind CSS for an optimized user experience across devices.",
+    ],
+    href: "https://job-portal-new-kappa.vercel.app/",
+    logo: "",
+    image: "/assets/projects/jobportal.png",
+    tags: [
+      {
+        id: 1,
+        name: "MERN stack",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Socket.io",
+        path: "/assets/logos/clerk.png",
+      },
+      {
+        id: 3,
+        name: "Javascript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 4,
+        name: "Tailwind CSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
   {
-    id: 4,
+    id: 5,
     title: "JSON Tree Viewer Website",
     description:
       "An interactive web application that visualizes complex JSON data structures in an expandable and easy-to-navigate tree format.",
